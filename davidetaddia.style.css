@@ -1,3 +1,8 @@
+@font-face
+{
+   font-family : Gotic;
+    src: url(../02Fonts);
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
