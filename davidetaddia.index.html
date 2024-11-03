@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Add here the CSS code or link it for the style page   -->
+    <link rel="davidetaddia.style.css" href="davidetaddia.style.css"> 
+ 
+</head>
+<body>
+    <header>
+        <h1>Davide Taddia</h1>
+    </header>
+    
+    <div class="container">
+        <!-- Photo -->
+        <img src="path/to/your/photo.jpg" alt="Profile Photo">
+
+        <!-- Brief Paragraph -->
+        <p>I'm really passionate about computer science and everything related to it. Right now, I’m just a university student, but I’m working hard every day to get closer to my goals. I set up this page as a style exercise, and hopefully, one day, I'll fill it with bigger and more interesting projects.
+
+            My journey into computer science started out of pure curiosity and quickly turned into a passion. I’ve always been fascinated by how technology works and how it shapes our world. From coding and software development to exploring new advancements in AI and machine learning, there’s always something new and exciting to learn. Right now, I’m mainly focusing on building a solid foundation in programming and honing my problem-solving skills, but I’m also keen to dive deeper into areas like data science and NLP as I progress.
+            
+            Even though I’m still a student, I firmly believe that every small step counts. Every project I take on or every challenge I face pushes me closer to becoming the professional I aspire to be. That’s why I see this page as more than just a showcase—it’s a timeline of my growth, learning experiences, and the knowledge I gather along the way.
+            
+            For now, it might just be a collection of experiments and simple projects, but I hope it will gradually turn into a portfolio of more ambitious and impactful work. Stay tuned for more updates and projects as I continue learning and evolving!
+            ...NLP work in progress...</p>
+        
+        <!-- Links Section -->
+        <div class="links">
+            <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+            <a href="https://github.com/your-profile" target="_blank">GitHub</a>
+            <a href="https://youtube.com/your-channel" target="_blank">YouTube</a>
+        </div>
+        
+        <!-- Experiences Section -->
+        <h2>Experiences</h2>
+        <p>HAMSTER AT WORK ....</p>
+
+        <!-- Skills Section -->
+        <h2>Skills</h2>
+        <p>List your key skills, such as programming languages, tools, or soft skills.</p>
+
+        <!-- Graphic Section (Placeholder for GitHub Stats) -->
+        <div class="graphic">
+            <h2>GitHub Project Trends</h2>
+            <img src="path/to/your/graphic.png" alt="GitHub Stats Graphic">
+        </div>
+
+        <!-- Form Section -->
+        <div class="form-container">
+            <h2>Contact Me</h2>
+            <form action="https://example.com/form-handler" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="Surname">Surname</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer with Cookie Message -->
+    <footer>
+        <p>&copy; 2024 Davide Taddia. All Rights Reserved.</p>
+        <p>This site uses cookies to improve user experience. <button id="accept-cookies">Accept Cookies</button></p>
+    </footer>
+
+    <!-- JavaScript for Cookies -->
+    <script>
+        document.getElementById('accept-cookies').addEventListener('click', function() {
+            document.cookie = "user=accepted; path=/; max-age=" + 60*60*24*30;
+            alert("Cookies Accepted!");
+        });
+    </script>
+</body>
+</html>

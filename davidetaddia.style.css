@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: rgba(60, 60, 60, 0.678);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+img {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+h1, h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
+    padding: 0 20px;
+}
+.links {
+    text-align: center;
+    margin: 20px 0;
+}
+.links a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    background: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.graphic {
+    text-align: center;
+    margin: 40px 0;
+}
+.form-container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+.form-container label {
+    display: block;
+    margin: 15px 0 5px;
+}
+.form-container input, .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+footer {
+    text-align: center;
+    margin: 20px 0;
+}
