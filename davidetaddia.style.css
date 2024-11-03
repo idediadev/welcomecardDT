@@ -77,3 +77,5 @@ footer {
     text-align: center;
     margin: 20px 0;
 }
+background: url('bachground00.jpg') no-repeat center center fixed;
+background-size: cover;
