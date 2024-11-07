@@ -1,8 +1,10 @@
 @font-face
-{
-   font-family : Gotic;
-    src: url(../02Fonts);
+.dotgothic16-regular {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
