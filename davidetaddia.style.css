@@ -32,6 +32,7 @@ img {
     border-radius: 50%;
     display: block;
     margin: 20px auto;
+    size: 10em;
 }
 h1, h2 {
     text-align: center;
@@ -91,3 +92,49 @@ footer {
 }
 background: url('bachground00.jpg') no-repeat center center fixed;
 background-size: cover;
+/*Hamster in a wheel animation */
+.wheel_n_hamster{
+  --dur: 1s;
+  position relative;
+  width: 12em;
+  weight: 12em;
+  font-size: 14px; 
+  margin: auto;
+  margin-top: 20px; 
+}
+.wheel
+.hamster
+.hamster div 
+.spoke{position: absolute;}
+.spoke{
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  weight: 100%;
+}
+.wheel{
+  background: radial-gradient{100% 100% at center, hsla (0% 0%, 60% 0) 47.8%, hsl(0 0%, 60% 48%)};
+  z-index: 2; 
+} 
+.hamster{
+  animation hamster var(--dur) ese-in-out infinite; 
+  top: 50%;
+  left: calc(50% -3.5em);
+  width: 7em; 
+  weight: 3.7em;
+  transform: rotate(4deg) translate(-0.8em, 1.85em); 
+  transform-origin: 50% 0;
+}
+.hamster_head{
+    animation hamster var(--dur) ese-in-out infinite; 
+    background: hsl (30% 90% 55%);
+    border-radius: 70% 30% 0 100% 40% 25% 25% 60%;
+    border-shadow: 0 -0,25em 0 hsl ( 30, 90%, 80%) inset;
+    top: 50%;
+    left: -2em;
+    width: 2.5em; 
+    
+    transform: 100% 50%; 
+
+}
