@@ -271,8 +271,57 @@ background-size: cover;
   12.5%, 37.5%, 62.5%, 87.5%{
    transform: rotate(-2deg);
     }
-
 }
+@keyfremes hamsterFRLimb{
+    from, 25%, 50%, 75%, to{
+     transform: rotate(50deg) translateZ(-1px);
+  }
+  12.5%, 37.5%, 62.5%, 87.5%{
+   transform: rotate(-30deg) translateZ(-1px);
+    }
+}
+@keyfremes hamsterFLLimb{
+    from, 25%, 50%, 75%, to{
+     transform: rotate(-30deg);
+  }
+  12.5%, 37.5%, 62.5%, 87.5%{
+   transform: rotate(50deg);
+    }
+}
+@keyfremes hamsterBRLimb{
+    from, 25%, 50%, 75%, to{
+     transform: rotate(-60deg) translateZ(-1px);
+  }
+  12.5%, 37.5%, 62.5%, 87.5%{
+   transform: rotate(20deg) translateZ(-1px);
+    }
+}
+@keyfremes hamsterBLLimb{
+    from, 25%, 50%, 75%, to{
+     transform: rotate(20deg);
+  }
+  12.5%, 37.5%, 62.5%, 87.5%{
+   transform: rotate(-60deg);
+    }
+}
+@keyfremes hamsterTail{
+    from, 25%, 50%, 75%, to{
+     transform: rotate(30deg) translateZ(-1px);
+  }
+  12.5%, 37.5%, 62.5%, 87.5%{
+   transform: rotate(10deg);
+    }
+}
+@keyfremes spoke{
+    from {
+     transform: rotate(0);
+  }
+ to {
+   transform: rotate(-1turn);
+    }
+}
+
+
 
 
 
