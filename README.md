@@ -35,9 +35,9 @@ cd welcome-card-website  FAKE cmd
 Open the HTML file: Launch index.html in a web browser to see the welcome card in action.
 
 Customization                                                       [HAMSTER AT WORK]
-Text: Open index.html and modify the text within the <h1>, <p>, and <button> tags to create your desired message.
-Styling: Adjust style.css to change colors, fonts, and layout.
-Images: Replace the placeholder image in the images folder with your own (update the path in index.html if necessary).
+Text Open index.html and modify the text within the <h1>, <p>, and <button> tags to create your desired message.
+Styling Adjust style.css to change colors, fonts, and layout.
+Images Replace the placeholder image in the images folder with your own (update the path in index.html if necessary).
 Usage
 Simply share the link to the hosted website, or run it locally to preview. Modify as needed for different purposes: welcoming new hires, event participants, clients, or website visitors.
 
